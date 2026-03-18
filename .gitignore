@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+
+# Claude Code (configuración local, no va al repo)
+.claude/
+
+# Outputs de prueba (no van al repo)
+OUTPUT*.xlsx
+TEST_OUTPUT*.xlsx
+
+# Archivos de trabajo locales
+ABRIR_APP.bat
+test_local.py
+
+# Flows de clientes (datos sensibles, no subir)
+PDM_*.xlsx
+
+# VS Code / editores
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
